@@ -1,0 +1,23 @@
+galaxy_info:
+  role_name: user_mgmt
+  namespace: amertka
+  author: ADY
+  description: Manage Linux users, groups, sudo, SSH, and passwords
+  company: Amertka DevOps Yar
+  license: GPL-2.0-or-later
+  min_ansible_version: "2.9"
+
+  platforms:
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+
+  galaxy_tags:
+    - users
+    - groups
+    - security
+    - hardening
+    - linux
+
+dependencies: []
